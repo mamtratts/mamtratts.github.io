@@ -1,0 +1,502 @@
+{
+    "common_voice_en_24356884-common_voice_en_24356917": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_24356884.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_24356884-common_voice_en_24356917.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_24356884-common_voice_en_24356917.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_24356884-common_voice_en_24356917.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_24356884-common_voice_en_24356917.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_24356884-common_voice_en_24356917.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_24356884-common_voice_en_24356917.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_24356884-common_voice_en_24356917.wav"
+    },
+    "common_voice_en_25626822-common_voice_en_25626825": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_25626822.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_25626822-common_voice_en_25626825.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_25626822-common_voice_en_25626825.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_25626822-common_voice_en_25626825.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_25626822-common_voice_en_25626825.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_25626822-common_voice_en_25626825.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_25626822-common_voice_en_25626825.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_25626822-common_voice_en_25626825.wav"
+    },
+    "common_voice_en_20289354-common_voice_en_20289351": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_20289354.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_20289354-common_voice_en_20289351.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_20289354-common_voice_en_20289351.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_20289354-common_voice_en_20289351.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_20289354-common_voice_en_20289351.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_20289354-common_voice_en_20289351.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_20289354-common_voice_en_20289351.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_20289354-common_voice_en_20289351.wav"
+    },
+    "common_voice_en_18200641-common_voice_en_18200765": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_18200641.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_18200641-common_voice_en_18200765.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_18200641-common_voice_en_18200765.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_18200641-common_voice_en_18200765.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_18200641-common_voice_en_18200765.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_18200641-common_voice_en_18200765.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_18200641-common_voice_en_18200765.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_18200641-common_voice_en_18200765.wav"
+    },
+    "common_voice_en_22461617-common_voice_en_22461638": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_22461617.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_22461617-common_voice_en_22461638.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_22461617-common_voice_en_22461638.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_22461617-common_voice_en_22461638.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_22461617-common_voice_en_22461638.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_22461617-common_voice_en_22461638.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_22461617-common_voice_en_22461638.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_22461617-common_voice_en_22461638.wav"
+    },
+    "common_voice_en_21777264-common_voice_en_21777262": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_21777264.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_21777264-common_voice_en_21777262.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_21777264-common_voice_en_21777262.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_21777264-common_voice_en_21777262.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_21777264-common_voice_en_21777262.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_21777264-common_voice_en_21777262.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_21777264-common_voice_en_21777262.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_21777264-common_voice_en_21777262.wav"
+    },
+    "common_voice_en_35042682-common_voice_en_35042750": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_35042682.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_35042682-common_voice_en_35042750.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_35042682-common_voice_en_35042750.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_35042682-common_voice_en_35042750.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_35042682-common_voice_en_35042750.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_35042682-common_voice_en_35042750.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_35042682-common_voice_en_35042750.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_35042682-common_voice_en_35042750.wav"
+    },
+    "common_voice_en_20030172-common_voice_en_20030173": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_20030172.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_20030172-common_voice_en_20030173.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_20030172-common_voice_en_20030173.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_20030172-common_voice_en_20030173.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_20030172-common_voice_en_20030173.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_20030172-common_voice_en_20030173.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_20030172-common_voice_en_20030173.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_20030172-common_voice_en_20030173.wav"
+    },
+    "common_voice_en_2586258-common_voice_en_2586259": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_2586258.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_2586258-common_voice_en_2586259.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_2586258-common_voice_en_2586259.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_2586258-common_voice_en_2586259.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_2586258-common_voice_en_2586259.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_2586258-common_voice_en_2586259.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_2586258-common_voice_en_2586259.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_2586258-common_voice_en_2586259.wav"
+    },
+    "common_voice_en_18699078-common_voice_en_18699082": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_18699078.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_18699078-common_voice_en_18699082.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_18699078-common_voice_en_18699082.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_18699078-common_voice_en_18699082.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_18699078-common_voice_en_18699082.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_18699078-common_voice_en_18699082.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_18699078-common_voice_en_18699082.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_18699078-common_voice_en_18699082.wav"
+    },
+    "common_voice_en_19816147-common_voice_en_19816145": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_19816147.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_19816147-common_voice_en_19816145.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_19816147-common_voice_en_19816145.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_19816147-common_voice_en_19816145.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_19816147-common_voice_en_19816145.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_19816147-common_voice_en_19816145.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_19816147-common_voice_en_19816145.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_19816147-common_voice_en_19816145.wav"
+    },
+    "common_voice_en_25710838-common_voice_en_25710836": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_25710838.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_25710838-common_voice_en_25710836.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_25710838-common_voice_en_25710836.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_25710838-common_voice_en_25710836.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_25710838-common_voice_en_25710836.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_25710838-common_voice_en_25710836.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_25710838-common_voice_en_25710836.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_25710838-common_voice_en_25710836.wav"
+    },
+    "common_voice_en_509177-common_voice_en_509186": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_509177.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_509177-common_voice_en_509186.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_509177-common_voice_en_509186.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_509177-common_voice_en_509186.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_509177-common_voice_en_509186.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_509177-common_voice_en_509186.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_509177-common_voice_en_509186.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_509177-common_voice_en_509186.wav"
+    },
+    "common_voice_en_563060-common_voice_en_563063": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_563060.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_563060-common_voice_en_563063.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_563060-common_voice_en_563063.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_563060-common_voice_en_563063.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_563060-common_voice_en_563063.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_563060-common_voice_en_563063.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_563060-common_voice_en_563063.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_563060-common_voice_en_563063.wav"
+    },
+    "common_voice_en_23726733-common_voice_en_23726734": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_23726733.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_23726733-common_voice_en_23726734.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_23726733-common_voice_en_23726734.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_23726733-common_voice_en_23726734.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_23726733-common_voice_en_23726734.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_23726733-common_voice_en_23726734.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_23726733-common_voice_en_23726734.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_23726733-common_voice_en_23726734.wav"
+    },
+    "common_voice_en_21504874-common_voice_en_21504873": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_21504874.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_21504874-common_voice_en_21504873.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_21504874-common_voice_en_21504873.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_21504874-common_voice_en_21504873.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_21504874-common_voice_en_21504873.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_21504874-common_voice_en_21504873.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_21504874-common_voice_en_21504873.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_21504874-common_voice_en_21504873.wav"
+    },
+    "common_voice_en_21504874-common_voice_en_21504872": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_21504874.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_21504874-common_voice_en_21504872.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_21504874-common_voice_en_21504872.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_21504874-common_voice_en_21504872.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_21504874-common_voice_en_21504872.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_21504874-common_voice_en_21504872.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_21504874-common_voice_en_21504872.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_21504874-common_voice_en_21504872.wav"
+    },
+    "common_voice_en_20262152-common_voice_en_20262155": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_20262152.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_20262152-common_voice_en_20262155.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_20262152-common_voice_en_20262155.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_20262152-common_voice_en_20262155.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_20262152-common_voice_en_20262155.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_20262152-common_voice_en_20262155.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_20262152-common_voice_en_20262155.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_20262152-common_voice_en_20262155.wav"
+    },
+    "common_voice_en_19083094-common_voice_en_19083091": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_19083094.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_19083094-common_voice_en_19083091.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_19083094-common_voice_en_19083091.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_19083094-common_voice_en_19083091.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_19083094-common_voice_en_19083091.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_19083094-common_voice_en_19083091.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_19083094-common_voice_en_19083091.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_19083094-common_voice_en_19083091.wav"
+    },
+    "common_voice_en_19748004-common_voice_en_19748007": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_19748004.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_19748004-common_voice_en_19748007.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_19748004-common_voice_en_19748007.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_19748004-common_voice_en_19748007.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_19748004-common_voice_en_19748007.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_19748004-common_voice_en_19748007.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_19748004-common_voice_en_19748007.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_19748004-common_voice_en_19748007.wav"
+    },
+    "common_voice_en_37793802-common_voice_en_37793803": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_37793802.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_37793802-common_voice_en_37793803.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_37793802-common_voice_en_37793803.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_37793802-common_voice_en_37793803.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_37793802-common_voice_en_37793803.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_37793802-common_voice_en_37793803.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_37793802-common_voice_en_37793803.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_37793802-common_voice_en_37793803.wav"
+    },
+    "common_voice_en_21877403-common_voice_en_21877406": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_21877403.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_21877403-common_voice_en_21877406.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_21877403-common_voice_en_21877406.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_21877403-common_voice_en_21877406.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_21877403-common_voice_en_21877406.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_21877403-common_voice_en_21877406.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_21877403-common_voice_en_21877406.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_21877403-common_voice_en_21877406.wav"
+    },
+    "common_voice_en_26952530-common_voice_en_26952588": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_26952530.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_26952530-common_voice_en_26952588.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_26952530-common_voice_en_26952588.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_26952530-common_voice_en_26952588.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_26952530-common_voice_en_26952588.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_26952530-common_voice_en_26952588.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_26952530-common_voice_en_26952588.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_26952530-common_voice_en_26952588.wav"
+    },
+    "common_voice_en_19695366-common_voice_en_19695364": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_19695366.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_19695366-common_voice_en_19695364.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_19695366-common_voice_en_19695364.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_19695366-common_voice_en_19695364.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_19695366-common_voice_en_19695364.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_19695366-common_voice_en_19695364.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_19695366-common_voice_en_19695364.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_19695366-common_voice_en_19695364.wav"
+    },
+    "common_voice_en_23809069-common_voice_en_23809073": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_23809069.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_23809069-common_voice_en_23809073.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_23809069-common_voice_en_23809073.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_23809069-common_voice_en_23809073.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_23809069-common_voice_en_23809073.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_23809069-common_voice_en_23809073.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_23809069-common_voice_en_23809073.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_23809069-common_voice_en_23809073.wav"
+    },
+    "common_voice_en_20938865-common_voice_en_20938866": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_20938865.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_20938865-common_voice_en_20938866.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_20938865-common_voice_en_20938866.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_20938865-common_voice_en_20938866.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_20938865-common_voice_en_20938866.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_20938865-common_voice_en_20938866.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_20938865-common_voice_en_20938866.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_20938865-common_voice_en_20938866.wav"
+    },
+    "common_voice_en_20289354-common_voice_en_20289353": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_20289354.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_20289354-common_voice_en_20289353.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_20289354-common_voice_en_20289353.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_20289354-common_voice_en_20289353.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_20289354-common_voice_en_20289353.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_20289354-common_voice_en_20289353.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_20289354-common_voice_en_20289353.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_20289354-common_voice_en_20289353.wav"
+    },
+    "common_voice_en_22461617-common_voice_en_22461634": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_22461617.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_22461617-common_voice_en_22461634.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_22461617-common_voice_en_22461634.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_22461617-common_voice_en_22461634.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_22461617-common_voice_en_22461634.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_22461617-common_voice_en_22461634.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_22461617-common_voice_en_22461634.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_22461617-common_voice_en_22461634.wav"
+    },
+    "common_voice_en_18735317-common_voice_en_18735372": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_18735317.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_18735317-common_voice_en_18735372.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_18735317-common_voice_en_18735372.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_18735317-common_voice_en_18735372.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_18735317-common_voice_en_18735372.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_18735317-common_voice_en_18735372.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_18735317-common_voice_en_18735372.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_18735317-common_voice_en_18735372.wav"
+    },
+    "common_voice_en_24504889-common_voice_en_24504891": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_24504889.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_24504889-common_voice_en_24504891.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_24504889-common_voice_en_24504891.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_24504889-common_voice_en_24504891.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_24504889-common_voice_en_24504891.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_24504889-common_voice_en_24504891.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_24504889-common_voice_en_24504891.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_24504889-common_voice_en_24504891.wav"
+    },
+    "common_voice_en_18944281-common_voice_en_18944280": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_18944281.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_18944281-common_voice_en_18944280.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_18944281-common_voice_en_18944280.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_18944281-common_voice_en_18944280.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_18944281-common_voice_en_18944280.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_18944281-common_voice_en_18944280.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_18944281-common_voice_en_18944280.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_18944281-common_voice_en_18944280.wav"
+    },
+    "common_voice_en_21877403-common_voice_en_21877404": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_21877403.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_21877403-common_voice_en_21877404.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_21877403-common_voice_en_21877404.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_21877403-common_voice_en_21877404.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_21877403-common_voice_en_21877404.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_21877403-common_voice_en_21877404.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_21877403-common_voice_en_21877404.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_21877403-common_voice_en_21877404.wav"
+    },
+    "common_voice_en_21345624-common_voice_en_21345626": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_21345624.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_21345624-common_voice_en_21345626.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_21345624-common_voice_en_21345626.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_21345624-common_voice_en_21345626.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_21345624-common_voice_en_21345626.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_21345624-common_voice_en_21345626.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_21345624-common_voice_en_21345626.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_21345624-common_voice_en_21345626.wav"
+    },
+    "common_voice_en_29345455-common_voice_en_29345456": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_29345455.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_29345455-common_voice_en_29345456.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_29345455-common_voice_en_29345456.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_29345455-common_voice_en_29345456.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_29345455-common_voice_en_29345456.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_29345455-common_voice_en_29345456.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_29345455-common_voice_en_29345456.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_29345455-common_voice_en_29345456.wav"
+    },
+    "common_voice_en_563060-common_voice_en_563064": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_563060.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_563060-common_voice_en_563064.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_563060-common_voice_en_563064.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_563060-common_voice_en_563064.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_563060-common_voice_en_563064.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_563060-common_voice_en_563064.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_563060-common_voice_en_563064.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_563060-common_voice_en_563064.wav"
+    },
+    "common_voice_en_23963776-common_voice_en_23963795": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_23963776.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_23963776-common_voice_en_23963795.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_23963776-common_voice_en_23963795.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_23963776-common_voice_en_23963795.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_23963776-common_voice_en_23963795.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_23963776-common_voice_en_23963795.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_23963776-common_voice_en_23963795.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_23963776-common_voice_en_23963795.wav"
+    },
+    "common_voice_en_23809069-common_voice_en_23809074": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_23809069.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_23809069-common_voice_en_23809074.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_23809069-common_voice_en_23809074.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_23809069-common_voice_en_23809074.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_23809069-common_voice_en_23809074.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_23809069-common_voice_en_23809074.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_23809069-common_voice_en_23809074.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_23809069-common_voice_en_23809074.wav"
+    },
+    "common_voice_en_23786332-common_voice_en_23786333": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_23786332.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_23786332-common_voice_en_23786333.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_23786332-common_voice_en_23786333.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_23786332-common_voice_en_23786333.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_23786332-common_voice_en_23786333.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_23786332-common_voice_en_23786333.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_23786332-common_voice_en_23786333.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_23786332-common_voice_en_23786333.wav"
+    },
+    "common_voice_en_19748971-common_voice_en_19748972": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_19748971.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_19748971-common_voice_en_19748972.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_19748971-common_voice_en_19748972.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_19748971-common_voice_en_19748972.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_19748971-common_voice_en_19748972.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_19748971-common_voice_en_19748972.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_19748971-common_voice_en_19748972.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_19748971-common_voice_en_19748972.wav"
+    },
+    "common_voice_en_18757805-common_voice_en_18757804": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_18757805.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_18757805-common_voice_en_18757804.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_18757805-common_voice_en_18757804.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_18757805-common_voice_en_18757804.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_18757805-common_voice_en_18757804.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_18757805-common_voice_en_18757804.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_18757805-common_voice_en_18757804.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_18757805-common_voice_en_18757804.wav"
+    },
+    "common_voice_en_2586258-common_voice_en_2586260": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_2586258.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_2586258-common_voice_en_2586260.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_2586258-common_voice_en_2586260.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_2586258-common_voice_en_2586260.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_2586258-common_voice_en_2586260.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_2586258-common_voice_en_2586260.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_2586258-common_voice_en_2586260.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_2586258-common_voice_en_2586260.wav"
+    },
+    "common_voice_en_19845853-common_voice_en_19845856": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_19845853.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_19845853-common_voice_en_19845856.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_19845853-common_voice_en_19845856.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_19845853-common_voice_en_19845856.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_19845853-common_voice_en_19845856.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_19845853-common_voice_en_19845856.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_19845853-common_voice_en_19845856.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_19845853-common_voice_en_19845856.wav"
+    },
+    "common_voice_en_570615-common_voice_en_570616": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_570615.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_570615-common_voice_en_570616.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_570615-common_voice_en_570616.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_570615-common_voice_en_570616.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_570615-common_voice_en_570616.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_570615-common_voice_en_570616.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_570615-common_voice_en_570616.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_570615-common_voice_en_570616.wav"
+    },
+    "common_voice_en_25745884-common_voice_en_25745889": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_25745884.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_25745884-common_voice_en_25745889.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_25745884-common_voice_en_25745889.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_25745884-common_voice_en_25745889.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_25745884-common_voice_en_25745889.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_25745884-common_voice_en_25745889.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_25745884-common_voice_en_25745889.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_25745884-common_voice_en_25745889.wav"
+    },
+    "common_voice_en_36069016-common_voice_en_36069018": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_36069016.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_36069016-common_voice_en_36069018.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_36069016-common_voice_en_36069018.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_36069016-common_voice_en_36069018.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_36069016-common_voice_en_36069018.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_36069016-common_voice_en_36069018.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_36069016-common_voice_en_36069018.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_36069016-common_voice_en_36069018.wav"
+    },
+    "common_voice_en_20905661-common_voice_en_20905662": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_20905661.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_20905661-common_voice_en_20905662.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_20905661-common_voice_en_20905662.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_20905661-common_voice_en_20905662.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_20905661-common_voice_en_20905662.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_20905661-common_voice_en_20905662.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_20905661-common_voice_en_20905662.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_20905661-common_voice_en_20905662.wav"
+    },
+    "common_voice_en_19527999-common_voice_en_19528002": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_19527999.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_19527999-common_voice_en_19528002.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_19527999-common_voice_en_19528002.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_19527999-common_voice_en_19528002.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_19527999-common_voice_en_19528002.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_19527999-common_voice_en_19528002.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_19527999-common_voice_en_19528002.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_19527999-common_voice_en_19528002.wav"
+    },
+    "common_voice_en_18485041-common_voice_en_18485042": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_18485041.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_18485041-common_voice_en_18485042.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_18485041-common_voice_en_18485042.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_18485041-common_voice_en_18485042.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_18485041-common_voice_en_18485042.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_18485041-common_voice_en_18485042.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_18485041-common_voice_en_18485042.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_18485041-common_voice_en_18485042.wav"
+    },
+    "common_voice_en_493740-common_voice_en_493738": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_493740.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_493740-common_voice_en_493738.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_493740-common_voice_en_493738.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_493740-common_voice_en_493738.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_493740-common_voice_en_493738.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_493740-common_voice_en_493738.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_493740-common_voice_en_493738.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_493740-common_voice_en_493738.wav"
+    },
+    "common_voice_en_19211875-common_voice_en_19211870": {
+        "groundtruth": "/normalized_audio/lynx2/datasets/Seed-tts-eval/seedtts_testset/en/prompt-wavs/common_voice_en_19211875.wav",
+        "cosyvoice2": "/normalized_audio/bear1/users/anony/tmp_data/cosyvoice2/common_voice_en_19211875-common_voice_en_19211870.wav",
+        "llasa": "/normalized_audio/bear1/users/anony/tmp_data/llasa_seed_tts/common_voice_en_19211875-common_voice_en_19211870.wav",
+        "zonos": "/normalized_audio/bear1/users/anony/tmp_data/zonos_libritts_output/common_voice_en_19211875-common_voice_en_19211870.wav",
+        "hysamba11": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_11/common_voice_en_19211875-common_voice_en_19211870.wav",
+        "hysamba13": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_13/common_voice_en_19211875-common_voice_en_19211870.wav",
+        "hysamba15": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_15/common_voice_en_19211875-common_voice_en_19211870.wav",
+        "hysamba111": "/normalized_audio/bear1/users/anony/tmp_data/hybrid_111/common_voice_en_19211875-common_voice_en_19211870.wav"
+    }
+}
