@@ -499,6 +499,288 @@
         header > *:nth-child(4) { animation-delay: 0.26s; }
         header > *:nth-child(5) { animation-delay: 0.33s; }
         header > *:nth-child(6) { animation-delay: 0.40s; }
+
+        /* ── INTERACTIVE DEMO PIPELINE ── */
+        .demo-pipeline {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+            gap: 0;
+        }
+
+        .demo-sample-tabs {
+            display: flex;
+            gap: 0.4rem;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .demo-tab-btn {
+            font-family: 'DM Mono', monospace;
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 0.3rem 0.8rem;
+            border-radius: 100px;
+            border: 1.5px solid var(--border);
+            background: transparent;
+            color: var(--muted);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .demo-tab-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+        .demo-tab-btn:hover:not(.active) { border-color: var(--accent); color: var(--accent); }
+
+        .demo-input-col {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            align-items: stretch;
+            flex-shrink: 0;
+            width: 210px;
+        }
+
+        .demo-block-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 0.9rem 1rem;
+        }
+
+        .demo-block-label {
+            font-family: 'DM Mono', monospace;
+            font-size: 0.62rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .demo-text-preview {
+            font-size: 0.75rem;
+            color: var(--muted2);
+            line-height: 1.45;
+            font-style: italic;
+        }
+
+        .demo-audio-item {
+            background: var(--bg);
+            border: 1.5px solid var(--border);
+            border-radius: 10px;
+            padding: 0.75rem 0.9rem;
+            transition: border-color 0.3s, box-shadow 0.3s, background 0.3s;
+            cursor: pointer;
+        }
+        .demo-audio-item:hover { border-color: rgba(59,108,245,0.4); }
+        .demo-audio-item.playing {
+            border-color: var(--accent);
+            box-shadow: 0 0 20px rgba(59,108,245,0.15);
+            background: rgba(59,108,245,0.02);
+            animation: demoPulseGlow 2s ease-in-out infinite;
+        }
+        .demo-audio-item.playing .demo-block-label { color: var(--accent); }
+        .demo-audio-item.is-output.playing {
+            border-color: var(--accent2);
+            box-shadow: 0 0 20px rgba(124,92,191,0.15);
+            background: rgba(124,92,191,0.02);
+            animation: demoPulseGlowPurple 2s ease-in-out infinite;
+        }
+        .demo-audio-item.is-output.playing .demo-block-label { color: var(--accent2); }
+
+        .demo-audio-wave-container {
+            width: 100%;
+            height: 38px;
+            position: relative;
+        }
+        .demo-audio-wave-svg { width: 100%; height: 100%; }
+
+        @keyframes demoWaveBarPulse {
+            0%, 100% { transform: scaleY(1); }
+            50% { transform: scaleY(0.3); }
+        }
+        .demo-wave-bar { transition: fill 0.15s, opacity 0.15s; transform-box: fill-box; transform-origin: center; }
+        .demo-wave-bar.demo-input-bar  { fill: var(--accent);  opacity: 0.3; }
+        .demo-wave-bar.demo-output-bar { fill: var(--accent2); opacity: 0.3; }
+        .demo-audio-item.playing .demo-wave-bar { opacity: 0.5; animation: demoWaveBarPulse 1.2s ease-in-out infinite; }
+        .demo-audio-item.playing.paused .demo-wave-bar { animation-play-state: paused; }
+        .demo-audio-item.playing .demo-wave-bar.demo-bar-played { opacity: 1; }
+        .demo-wave-bar.demo-bar-played { opacity: 0.85; }
+
+        .demo-wave-progress {
+            position: absolute; top: 0; left: 0; width: 2px; height: 100%;
+            background: var(--text); opacity: 0; border-radius: 1px;
+            transition: opacity 0.2s; pointer-events: none;
+        }
+        .demo-audio-item.playing .demo-wave-progress { opacity: 0.55; }
+        .demo-audio-time {
+            display: flex; justify-content: space-between;
+            font-family: 'DM Mono', monospace; font-size: 0.6rem; color: var(--muted); margin-top: 0.3rem;
+        }
+
+        .demo-arrow-zone {
+            display: flex;
+            align-items: center;
+            padding: 0 0.5rem;
+            flex-shrink: 0;
+        }
+        .demo-arrow-zone svg { width: 52px; height: 24px; overflow: visible; }
+        .demo-arrow-line { stroke: var(--border); stroke-width: 1.5; fill: none; }
+        .demo-arrow-head { fill: var(--muted); }
+        @keyframes demoFlowRight { 0% { cx: 2; } 100% { cx: 50; } }
+        .demo-flow-dot { r: 2.5; animation: demoFlowRight 1.3s ease-in-out infinite; }
+        .demo-flow-dot.dc1 { fill: var(--accent);  animation-delay: 0s; }
+        .demo-flow-dot.dc2 { fill: var(--accent3); animation-delay: 0.45s; }
+        .demo-flow-dot.dc3 { fill: var(--accent2); animation-delay: 0s; }
+
+        .demo-arch-center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            flex-shrink: 0;
+            width: 340px;
+        }
+
+        .demo-arch-legend {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .demo-arch-legend-item {
+            display: flex; align-items: center; gap: 0.4rem;
+            font-size: 0.72rem; color: var(--muted2);
+        }
+        .demo-arch-legend-swatch {
+            width: 12px; height: 12px; border-radius: 3px;
+        }
+        .demo-arch-legend-swatch.transformer { background: var(--accent); }
+        .demo-arch-legend-swatch.mamba { background: #f59e0b; }
+
+        .demo-arch-boxes-wrap {
+            width: 100%;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 0.9rem 0.9rem 0.6rem;
+        }
+
+        .demo-arch-boxes {
+            display: flex;
+            gap: 3px;
+            width: 100%;
+            position: relative;
+        }
+        .demo-arch-box {
+            flex: 1;
+            height: 40px;
+            border-radius: 3px;
+            cursor: default;
+            position: relative;
+            transition: background 0.6s ease, transform 0.15s ease,
+                        flex 0.7s cubic-bezier(0.4,0,0.2,1), opacity 0.5s ease, border-radius 0.5s ease;
+        }
+        .demo-arch-box:hover { transform: scaleY(1.15); z-index: 2; }
+        .demo-arch-box.collapsed { flex: 0; opacity: 0; overflow: hidden; pointer-events: none; }
+        .demo-arch-box.merged {
+            flex: 1; border-radius: 8px;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .demo-arch-box.merged:hover { transform: none; }
+        .demo-merged-text {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.2rem;
+            color: #fff;
+            opacity: 0;
+            transition: opacity 0.5s ease 0.3s;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+        .demo-merged-text.visible { opacity: 1; }
+        .demo-arch-box.transformer { background: var(--accent); }
+        .demo-arch-box.mamba { background: #f59e0b; }
+        .demo-arch-box::after {
+            content: attr(data-label);
+            position: absolute;
+            bottom: calc(100% + 5px);
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--text);
+            color: var(--bg);
+            font-family: 'DM Mono', monospace;
+            font-size: 0.6rem;
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            white-space: nowrap;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.15s;
+        }
+        .demo-arch-box:hover::after { opacity: 1; }
+
+        .demo-arch-phase-label {
+            text-align: center;
+            font-family: 'DM Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--muted2);
+            min-height: 1.2em;
+            margin-top: 0.3rem;
+        }
+
+        .demo-output-col {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            align-items: stretch;
+            flex-shrink: 0;
+            width: 210px;
+        }
+
+        .demo-play-row {
+            display: flex;
+            gap: 0.6rem;
+            align-items: center;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+        .demo-btn-play {
+            display: inline-flex; align-items: center; gap: 0.45rem;
+            padding: 0.55rem 1.25rem; border-radius: 100px;
+            font-size: 0.8rem; font-weight: 500; font-family: 'DM Sans', sans-serif;
+            cursor: pointer; border: none; background: var(--accent); color: #fff;
+            transition: all 0.2s;
+        }
+        .demo-btn-play:hover { background: #4a7ef0; transform: translateY(-1px); }
+        .demo-btn-play:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+        .demo-btn-pause {
+            display: none;
+            padding: 0.55rem 1.25rem; border-radius: 100px;
+            font-size: 0.8rem; font-weight: 500; font-family: 'DM Sans', sans-serif;
+            cursor: pointer; border: none; background: #f59e0b; color: #fff;
+            transition: all 0.2s;
+        }
+        .demo-btn-pause:hover { background: #d97706; transform: translateY(-1px); }
+        .demo-btn-stop {
+            display: none;
+            padding: 0.55rem 1.25rem; border-radius: 100px;
+            font-size: 0.8rem; font-weight: 500; font-family: 'DM Sans', sans-serif;
+            cursor: pointer; border: none; background: var(--muted); color: #fff;
+            transition: all 0.2s;
+        }
+        .demo-btn-stop:hover { background: var(--muted2); }
+
+        @keyframes demoPulseGlow       { 0%,100% { box-shadow: 0 0 12px rgba(59,108,245,0.1);  } 50% { box-shadow: 0 0 24px rgba(59,108,245,0.25);  } }
+        @keyframes demoPulseGlowPurple { 0%,100% { box-shadow: 0 0 12px rgba(124,92,191,0.1); } 50% { box-shadow: 0 0 24px rgba(124,92,191,0.25); } }
+
+        @media (max-width: 900px) {
+            .demo-pipeline { flex-direction: column; }
+            .demo-arrow-zone svg { transform: rotate(90deg); }
+            .demo-input-col, .demo-output-col, .demo-arch-center { width: 100%; max-width: 360px; }
+        }
     </style>
 </head>
 <body>
@@ -566,6 +848,100 @@
                 <div class="stat-label">Distillation Data</div>
             </div>
         </div>
+
+        <hr>
+
+        <!-- ══════════════════════════════════════ INTERACTIVE DEMO -->
+        <section>
+            <div class="section-label">Interactive Demo</div>
+            <h2>Pipeline Demo</h2>
+            <p>Listen to reference audio and MamTra synthesized output. Click the waveforms or use the controls below.</p>
+
+            <!-- sample tabs -->
+            <div class="demo-sample-tabs">
+                <button class="demo-tab-btn active" data-demo-sample="1">Sample 1</button>
+                <button class="demo-tab-btn" data-demo-sample="2">Sample 2</button>
+            </div>
+
+            <!-- main pipeline -->
+            <div class="demo-pipeline">
+
+                <!-- INPUT COLUMN -->
+                <div class="demo-input-col">
+                    <div class="demo-block-card">
+                        <div class="demo-block-label">Text Input</div>
+                        <div class="demo-text-preview" id="demo-text-preview">
+                            &ldquo;Hello, how are you doing today? I hope you have a very nice day with great results.&rdquo;
+                        </div>
+                    </div>
+                    <div class="demo-audio-item" id="demo-audio-item-input">
+                        <div class="demo-block-label">Reference Audio</div>
+                        <div class="demo-audio-wave-container" id="demo-wave-container-input">
+                            <svg class="demo-audio-wave-svg" viewBox="0 0 200 44" preserveAspectRatio="none" id="demo-wave-svg-input"></svg>
+                            <div class="demo-wave-progress" id="demo-wave-prog-input"></div>
+                        </div>
+                        <div class="demo-audio-time">
+                            <span id="demo-cur-input">0:00</span>
+                            <span id="demo-dur-input">--:--</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ARROW IN -->
+                <div class="demo-arrow-zone">
+                    <svg viewBox="0 0 52 24">
+                        <line class="demo-arrow-line" x1="0" y1="12" x2="46" y2="12"/>
+                        <polygon class="demo-arrow-head" points="44,7 52,12 44,17"/>
+                        <circle class="demo-flow-dot dc1" cy="12"/>
+                        <circle class="demo-flow-dot dc2" cy="12"/>
+                    </svg>
+                </div>
+
+                <!-- ARCH CENTER -->
+                <div class="demo-arch-center">
+                    <div class="demo-arch-legend">
+                        <div class="demo-arch-legend-item"><div class="demo-arch-legend-swatch transformer"></div>Transformer</div>
+                        <div class="demo-arch-legend-item"><div class="demo-arch-legend-swatch mamba"></div>Mamba</div>
+                    </div>
+                    <div class="demo-arch-boxes-wrap">
+                        <div class="demo-arch-boxes" id="demo-arch-boxes"></div>
+                        <div class="demo-arch-phase-label" id="demo-arch-phase"></div>
+                    </div>
+                </div>
+
+                <!-- ARROW OUT -->
+                <div class="demo-arrow-zone">
+                    <svg viewBox="0 0 52 24">
+                        <line class="demo-arrow-line" x1="0" y1="12" x2="46" y2="12"/>
+                        <polygon class="demo-arrow-head" points="44,7 52,12 44,17"/>
+                        <circle class="demo-flow-dot dc3" cy="12"/>
+                    </svg>
+                </div>
+
+                <!-- OUTPUT COLUMN -->
+                <div class="demo-output-col">
+                    <div class="demo-audio-item is-output" id="demo-audio-item-output">
+                        <div class="demo-block-label">Output Speech (MamTra)</div>
+                        <div class="demo-audio-wave-container" id="demo-wave-container-output">
+                            <svg class="demo-audio-wave-svg" viewBox="0 0 200 44" preserveAspectRatio="none" id="demo-wave-svg-output"></svg>
+                            <div class="demo-wave-progress" id="demo-wave-prog-output"></div>
+                        </div>
+                        <div class="demo-audio-time">
+                            <span id="demo-cur-output">0:00</span>
+                            <span id="demo-dur-output">--:--</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /demo-pipeline -->
+
+            <!-- play controls -->
+            <div class="demo-play-row">
+                <button class="demo-btn-play" id="demo-btn-play-all">&#9654; Play Both</button>
+                <button class="demo-btn-pause" id="demo-btn-pause-all">&#10074;&#10074; Pause</button>
+                <button class="demo-btn-stop" id="demo-btn-stop-all">&#9632; Stop</button>
+            </div>
+        </section>
 
         <hr>
 
@@ -852,6 +1228,344 @@
     <footer>
         &copy; 2026 MamTra Authors &nbsp;·&nbsp; Anonymous Affiliations
     </footer>
+
+    <script>
+    // ═══════════════════════════════════════════════════
+    // INTERACTIVE DEMO – audio engine & arch animation
+    // ═══════════════════════════════════════════════════
+    (function () {
+        var DEMO_SAMPLES = {
+            '1': { input: 'sample1.wav', output: 'result1.wav',
+                   text: '\u201cHello, how are you doing today? I hope you have a very nice day with great results.\u201d' },
+            '2': { input: 'sample2.wav', output: 'result2.wav',
+                   text: '\u201cHello, how are you doing today? I hope you have a very nice day with great results.\u201d' }
+        };
+        var demoCurrentSample = '1';
+
+        // ─── WAVEFORM BUILDER ───
+        var DEMO_BAR_COUNT = 50;
+        function demoBuildWaveform(svgId, barClass) {
+            var svg = document.getElementById(svgId);
+            svg.innerHTML = '';
+            var bars = [];
+            var vw = 200, vh = 44, gap = 1;
+            var barW = (vw - (DEMO_BAR_COUNT - 1) * gap) / DEMO_BAR_COUNT;
+            for (var i = 0; i < DEMO_BAR_COUNT; i++) {
+                var rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                var amp = 0.25 + 0.75 * Math.abs(Math.sin((i / DEMO_BAR_COUNT) * Math.PI * 3 + (barClass === 'demo-output-bar' ? 1.2 : 0) + Math.random() * 0.4));
+                var bh = amp * vh * 0.88;
+                rect.setAttribute('x', i * (barW + gap));
+                rect.setAttribute('y', (vh - bh) / 2);
+                rect.setAttribute('width', barW);
+                rect.setAttribute('height', bh);
+                rect.setAttribute('rx', barW / 2);
+                rect.setAttribute('class', 'demo-wave-bar ' + barClass);
+                rect.style.animationDelay = (i * 0.06) + 's';
+                svg.appendChild(rect);
+                bars.push(rect);
+            }
+            return bars;
+        }
+
+        // ─── AUDIO ENGINE ───
+        var demoInputBars = [], demoOutputBars = [];
+        var demoAudioInput  = new Audio();
+        var demoAudioOutput = new Audio();
+        var demoInputPlaying = false, demoOutputPlaying = false;
+        var demoInputRaf, demoOutputRaf;
+        var demoSeqPlaying = false;
+        var demoIsPaused = false;
+
+        function demoFormatTime(s) {
+            if (!s || isNaN(s)) return '--:--';
+            var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+            return m + ':' + (sec < 10 ? '0' : '') + sec;
+        }
+
+        function demoLoadSample(id) {
+            demoStopAll();
+            demoCurrentSample = id;
+            var s = DEMO_SAMPLES[id];
+            document.getElementById('demo-text-preview').innerHTML = s.text;
+            demoAudioInput.src  = s.input;
+            demoAudioOutput.src = s.output;
+            demoAudioInput.load();
+            demoAudioOutput.load();
+            document.getElementById('demo-cur-input').textContent  = '0:00';
+            document.getElementById('demo-cur-output').textContent = '0:00';
+            document.getElementById('demo-dur-input').textContent  = '--:--';
+            document.getElementById('demo-dur-output').textContent = '--:--';
+            demoAudioInput.addEventListener('loadedmetadata', function onMeta() {
+                document.getElementById('demo-dur-input').textContent = demoFormatTime(demoAudioInput.duration);
+                demoAudioInput.removeEventListener('loadedmetadata', onMeta);
+            });
+            demoAudioOutput.addEventListener('loadedmetadata', function onMeta2() {
+                document.getElementById('demo-dur-output').textContent = demoFormatTime(demoAudioOutput.duration);
+                demoAudioOutput.removeEventListener('loadedmetadata', onMeta2);
+            });
+            demoInputBars  = demoBuildWaveform('demo-wave-svg-input', 'demo-input-bar');
+            demoOutputBars = demoBuildWaveform('demo-wave-svg-output', 'demo-output-bar');
+        }
+
+        function demoPlayAudio(which) {
+            var audio = which === 'input' ? demoAudioInput : demoAudioOutput;
+            var bars  = which === 'input' ? demoInputBars  : demoOutputBars;
+            var prog  = document.getElementById('demo-wave-prog-' + which);
+            var curEl = document.getElementById('demo-cur-' + which);
+            var item  = document.getElementById('demo-audio-item-' + which);
+            item.classList.add('playing');
+            audio.play();
+            if (which === 'input') demoInputPlaying = true; else demoOutputPlaying = true;
+            function tick() {
+                if (audio.paused) return;
+                var ratio = audio.currentTime / (audio.duration || 1);
+                prog.style.left = (ratio * 100) + '%';
+                curEl.textContent = demoFormatTime(audio.currentTime);
+                var idx = Math.floor(ratio * DEMO_BAR_COUNT);
+                bars.forEach(function (b, i) { b.classList.toggle('demo-bar-played', i <= idx); });
+                if (which === 'input') demoInputRaf  = requestAnimationFrame(tick);
+                else                   demoOutputRaf = requestAnimationFrame(tick);
+            }
+            if (which === 'input') demoInputRaf  = requestAnimationFrame(tick);
+            else                   demoOutputRaf = requestAnimationFrame(tick);
+        }
+
+        function demoStopAudio(which) {
+            var audio = which === 'input' ? demoAudioInput : demoAudioOutput;
+            var bars  = which === 'input' ? demoInputBars  : demoOutputBars;
+            var prog  = document.getElementById('demo-wave-prog-' + which);
+            var curEl = document.getElementById('demo-cur-' + which);
+            var item  = document.getElementById('demo-audio-item-' + which);
+            audio.pause(); audio.currentTime = 0;
+            item.classList.remove('playing', 'paused');
+            if (which === 'input') { cancelAnimationFrame(demoInputRaf);  demoInputPlaying  = false; }
+            else                   { cancelAnimationFrame(demoOutputRaf); demoOutputPlaying = false; }
+            curEl.textContent = '0:00';
+            prog.style.left = '0';
+            bars.forEach(function (b) { b.classList.remove('demo-bar-played'); });
+        }
+
+        function demoPauseAudio(which) {
+            var audio = which === 'input' ? demoAudioInput : demoAudioOutput;
+            var item  = document.getElementById('demo-audio-item-' + which);
+            if (!audio.paused) {
+                audio.pause();
+                item.classList.add('paused');
+                if (which === 'input') cancelAnimationFrame(demoInputRaf);
+                else                   cancelAnimationFrame(demoOutputRaf);
+            }
+        }
+
+        function demoResumeAudio(which) {
+            var audio = which === 'input' ? demoAudioInput : demoAudioOutput;
+            var bars  = which === 'input' ? demoInputBars  : demoOutputBars;
+            var prog  = document.getElementById('demo-wave-prog-' + which);
+            var curEl = document.getElementById('demo-cur-' + which);
+            var item  = document.getElementById('demo-audio-item-' + which);
+            if (audio.paused && audio.currentTime > 0) {
+                item.classList.remove('paused');
+                audio.play();
+                function tick() {
+                    if (audio.paused) return;
+                    var ratio = audio.currentTime / (audio.duration || 1);
+                    prog.style.left = (ratio * 100) + '%';
+                    curEl.textContent = demoFormatTime(audio.currentTime);
+                    var idx = Math.floor(ratio * DEMO_BAR_COUNT);
+                    bars.forEach(function (b, i) { b.classList.toggle('demo-bar-played', i <= idx); });
+                    if (which === 'input') demoInputRaf  = requestAnimationFrame(tick);
+                    else                   demoOutputRaf = requestAnimationFrame(tick);
+                }
+                if (which === 'input') demoInputRaf  = requestAnimationFrame(tick);
+                else                   demoOutputRaf = requestAnimationFrame(tick);
+            }
+        }
+
+        function demoPauseAll() {
+            demoIsPaused = true;
+            demoPauseAudio('input');
+            demoPauseAudio('output');
+            document.getElementById('demo-btn-pause-all').textContent = '\u25B6 Resume';
+        }
+
+        function demoResumeAll() {
+            demoIsPaused = false;
+            document.getElementById('demo-btn-pause-all').textContent = '\u275A\u275A Pause';
+            if (demoInputPlaying && demoAudioInput.currentTime > 0) demoResumeAudio('input');
+            if (demoOutputPlaying && demoAudioOutput.currentTime > 0) demoResumeAudio('output');
+        }
+
+        function demoStopAll() {
+            demoSeqPlaying = false;
+            demoIsPaused = false;
+            demoStopAudio('input');
+            demoStopAudio('output');
+            document.getElementById('demo-btn-play-all').disabled = false;
+            document.getElementById('demo-btn-play-all').textContent = '\u25B6 Play Both';
+            document.getElementById('demo-btn-pause-all').style.display = 'none';
+            document.getElementById('demo-btn-pause-all').textContent = '\u275A\u275A Pause';
+            document.getElementById('demo-btn-stop-all').style.display = 'none';
+        }
+
+        // click on input waveform
+        document.getElementById('demo-audio-item-input').addEventListener('click', function () {
+            if (demoSeqPlaying) return;
+            if (demoAudioInput.paused && demoAudioInput.currentTime > 0) {
+                demoResumeAudio('input');
+            } else if (demoAudioInput.paused) {
+                demoStopAudio('output'); demoPlayAudio('input');
+            } else {
+                demoPauseAudio('input');
+            }
+        });
+        // click on output waveform
+        document.getElementById('demo-audio-item-output').addEventListener('click', function () {
+            if (demoSeqPlaying) return;
+            if (demoAudioOutput.paused && demoAudioOutput.currentTime > 0) {
+                demoResumeAudio('output');
+            } else if (demoAudioOutput.paused) {
+                demoStopAudio('input'); demoPlayAudio('output');
+            } else {
+                demoPauseAudio('output');
+            }
+        });
+
+        // play both sequentially
+        document.getElementById('demo-btn-play-all').addEventListener('click', function () {
+            demoStopAll();
+            demoSeqPlaying = true;
+            document.getElementById('demo-btn-play-all').disabled = true;
+            document.getElementById('demo-btn-play-all').textContent = '\u25B6 Playing reference\u2026';
+            document.getElementById('demo-btn-pause-all').style.display = '';
+            document.getElementById('demo-btn-stop-all').style.display = '';
+            demoPlayAudio('input');
+            demoAudioInput.onended = function () {
+                demoStopAudio('input');
+                if (!demoSeqPlaying) return;
+                document.getElementById('demo-btn-play-all').textContent = '\u25B6 Playing output\u2026';
+                setTimeout(function () {
+                    demoPlayAudio('output');
+                    demoAudioOutput.onended = function () { demoStopAll(); };
+                }, 350);
+            };
+        });
+
+        // pause / resume toggle
+        document.getElementById('demo-btn-pause-all').addEventListener('click', function () {
+            if (demoIsPaused) demoResumeAll(); else demoPauseAll();
+        });
+        document.getElementById('demo-btn-stop-all').addEventListener('click', demoStopAll);
+
+        // ─── SAMPLE TABS ───
+        document.querySelectorAll('.demo-tab-btn').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                document.querySelectorAll('.demo-tab-btn').forEach(function (b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+                demoLoadSample(btn.getAttribute('data-demo-sample'));
+            });
+        });
+
+        // ─── ARCHITECTURE ANIMATION ───
+        (function () {
+            var NUM_LAYERS = 24;
+            var container = document.getElementById('demo-arch-boxes');
+            var phase = document.getElementById('demo-arch-phase');
+            var mambaIndices = [1,3,5,7,9,11,13,15,17,19,21,23];
+            var boxes = [];
+
+            for (var i = 0; i < NUM_LAYERS; i++) {
+                var box = document.createElement('div');
+                box.className = 'demo-arch-box collapsed';
+                box.setAttribute('data-label', 'Transformer');
+                container.appendChild(box);
+                boxes.push(box);
+            }
+
+            var teacherBox = document.createElement('div');
+            teacherBox.className = 'demo-arch-box merged';
+            teacherBox.style.background = 'var(--accent)';
+            var teacherText = document.createElement('span');
+            teacherText.className = 'demo-merged-text visible';
+            teacherText.textContent = 'Teacher TTS';
+            teacherBox.appendChild(teacherText);
+            container.appendChild(teacherBox);
+
+            var mergedBox = document.createElement('div');
+            mergedBox.className = 'demo-arch-box collapsed';
+            mergedBox.style.background = 'linear-gradient(135deg, var(--accent) 0%, var(--accent2) 50%, #f59e0b 100%)';
+            var mergedText = document.createElement('span');
+            mergedText.className = 'demo-merged-text';
+            mergedText.textContent = 'MamTra';
+            mergedBox.appendChild(mergedText);
+            container.appendChild(mergedBox);
+
+            var state = 0, step = 0, timer = null;
+            var STAGGER = 90;
+
+            function hideAll() {
+                boxes.forEach(function (b) { b.className = 'demo-arch-box collapsed'; });
+                mergedBox.className = 'demo-arch-box collapsed';
+                mergedText.className = 'demo-merged-text';
+                teacherBox.className = 'demo-arch-box collapsed';
+                teacherText.className = 'demo-merged-text';
+            }
+
+            function showTeacher() {
+                hideAll();
+                teacherBox.className = 'demo-arch-box merged';
+                container.style.gap = '0';
+                phase.textContent = 'Transformer-based TTS Teacher';
+                setTimeout(function () { teacherText.className = 'demo-merged-text visible'; }, 80);
+            }
+
+            function tick() {
+                switch (state) {
+                    case 0:
+                        showTeacher(); state = 1;
+                        timer = setTimeout(tick, 2200);
+                        break;
+                    case 1:
+                        teacherText.className = 'demo-merged-text';
+                        setTimeout(function () {
+                            teacherBox.className = 'demo-arch-box collapsed';
+                            container.style.gap = '3px';
+                            boxes.forEach(function (b) { b.className = 'demo-arch-box transformer'; b.setAttribute('data-label','Transformer'); });
+                            phase.textContent = 'CosyVoice 2 \u2014 24 Transformer layers';
+                        }, 280);
+                        state = 2; timer = setTimeout(tick, 1800);
+                        break;
+                    case 2:
+                        phase.textContent = 'Converting layers to Mamba\u2026';
+                        state = 3; step = 0; tick(); return;
+                    case 3:
+                        if (step < mambaIndices.length) {
+                            boxes[mambaIndices[step]].className = 'demo-arch-box mamba';
+                            boxes[mambaIndices[step]].setAttribute('data-label','Mamba');
+                            step++;
+                            timer = setTimeout(tick, STAGGER);
+                        } else {
+                            phase.textContent = 'MamTra 1:1 \u2014 12 Transformer + 12 Mamba';
+                            state = 4; timer = setTimeout(tick, 2000);
+                        }
+                        break;
+                    case 4:
+                        boxes.forEach(function (b) { b.className = 'demo-arch-box collapsed'; });
+                        mergedBox.className = 'demo-arch-box merged';
+                        container.style.gap = '0';
+                        phase.textContent = '';
+                        setTimeout(function () { mergedText.className = 'demo-merged-text visible'; }, 80);
+                        state = 5; timer = setTimeout(tick, 2500);
+                        break;
+                    case 5:
+                        state = 0; timer = setTimeout(tick, 300); break;
+                }
+            }
+            tick();
+        })();
+
+        // ─── INIT ───
+        demoLoadSample('1');
+    })();
+    </script>
 
     <script>
 
